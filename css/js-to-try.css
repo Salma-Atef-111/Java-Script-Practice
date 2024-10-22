@@ -1,0 +1,270 @@
+/* #countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btncontainer{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px ;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(31, 136, 101);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    border: none;
+}
+.buttons:hover{
+    background-color: aquamarine;
+} */
+
+
+
+
+/*
+body{
+    font-family: Verdana,Tahoma, sans-serif;
+    text-align: center;
+}
+#myBtn{
+    font-size: 3em; em : 300%
+    padding: 5px 25px ;
+    border-radius:5px ;
+
+}
+.myLabels{
+    font-size: 3em;
+}*/
+
+
+/* body{
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+#mySub{
+    
+    font-size: 1em;
+    padding: 5px 25px ;
+    border-radius:5px ;
+
+} */
+/*
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 254);
+    padding-top: 50px;
+}
+h1{
+    color: rgb(19, 41, 236);
+}
+form{
+    background-color: rgb(74, 204, 255);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgb(103, 174, 255);
+    /*first num is 'horizontal'...the second is 'vertical offset'...the third is blur radius
+}
+#textBox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em; /* mean 200%
+    border: 2px solid rgb(0, 47, 255);
+    border-radius: 4px;
+    margin-bottom:15px ;
+}
+#textBox:focus{
+    outline: none;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(255, 255, 255) ;
+}
+button{
+    margin-top: 15px;
+    background-color:rgba(63, 98, 255, 0.829);
+    font-size: 1.8em;
+    border: none;
+    padding:10px 50px ;
+    /* 10px for top ..15 for sides .. 
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(6, 52, 255, 0.829);
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}*/
+
+/*
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem; /* rem للديف الابن  
+    font-weight: bold;
+    background-color: darkgray;
+    max-width:800px;
+    margin: auto;
+
+}
+#red{
+    color: rgba(218,0,55,255);
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(218,0,55,255);
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(245, 24, 24, 0.884);
+}
+button:active{
+    background-color: rgb(255, 0, 0);
+
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 30px ;
+}
+img{
+    width: 20%;
+    margin: 5px;
+    padding-bottom: 50px;
+}*/
+/* h1{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial
+} */
+
+
+
+
+
+/* body{
+    margin: 0;
+    background-image: url(../img/clock.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px) ;
+    background-attachment: fixed;  عشان لما تسكرولي 
+}
+#clock-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;  
+    color: #412d1bcb;
+    backdrop-filter: blur(50px);
+    background-color:#ffb55563;
+    width: 100%;
+} */
+/* body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: hsla(213, 100%, 88%, 0.719);
+}
+#heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 20px;
+    padding-top: 100px;
+
+}
+#myH1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffb431;
+}
+#stopwatch{
+    width: 20%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #d65246;
+    border-radius: 50px;
+    padding: 50px 60px ;
+    background-color: #bfe2ff3a;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffb431;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%,0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px ;
+    min-width: 125px;
+    border: none;
+    border-radius:10px ;
+    cursor: pointer;
+    color: white;
+    transition: backgroud-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsla(120, 100%, 40%, 0.788);
+
+}
+#startBtn:hover{
+    background-color: rgba(0, 128, 0, 0.788);
+}
+#stopBtn{
+    background-color: hsla(10,90%,50%);
+}
+#stopBtn:hover{
+    background-color: rgb(167, 1, 1);
+}
+#resetBtn{
+    background-color: hsl(199, 87%, 56%);
+
+}
+#resetBtn:hover{
+    background-color: hsla(199, 87%, 56%, 0.616);
+} */
+/* 
+.box{
+    border: 3px solid;
+    width: 100%;
+    height: 100px;
+} */
